@@ -1,0 +1,24 @@
+{
+  "name": "xmas_card_generator",
+  "version": "1.0.0",
+  "description": "A web application that allows users to generate meme-like Christmas cards, then download them as a .png file.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pBsmith/xmas_card_generator.git"
+  },
+  "author": "Parker B. Smith",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pBsmith/xmas_card_generator/issues"
+  },
+  "homepage": "https://github.com/pBsmith/xmas_card_generator#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "nodemailer": "^4.7.0"
+  }
+}
